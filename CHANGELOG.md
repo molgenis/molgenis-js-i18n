@@ -1,3 +1,16 @@
+# [0.2.0](https://github.com/molgenis/molgenis-js-i18n/compare/v0.1.0...v0.2.0) (2019-05-31)
+
+
+### Bug Fixes
+
+* **package.json:** updated repo URL to molgenis ([8de98f8](https://github.com/molgenis/molgenis-js-i18n/commit/8de98f8))
+* **semantic-deps:** add plugins for auto release ([93fee3f](https://github.com/molgenis/molgenis-js-i18n/commit/93fee3f))
+
+
+### Features
+
+* **autorelease:** added autorelease ([cd8dc05](https://github.com/molgenis/molgenis-js-i18n/commit/cd8dc05))
+
 <a name="0.1.1"></a>
 ## 0.1.1 (2018-04-16)
 * Remove es6 syntax from production build 
