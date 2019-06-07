@@ -1,3 +1,10 @@
+## [0.2.1](https://github.com/molgenis/molgenis-js-i18n/compare/v0.2.0...v0.2.1) (2019-06-07)
+
+
+### Bug Fixes
+
+* fix CI Build, set unsave perm to true ([192d5fc](https://github.com/molgenis/molgenis-js-i18n/commit/192d5fc))
+
 # [0.2.0](https://github.com/molgenis/molgenis-js-i18n/compare/v0.1.0...v0.2.0) (2019-05-31)
 
 
