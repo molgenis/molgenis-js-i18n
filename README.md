@@ -12,7 +12,7 @@ A Vue.js plugin for the internationalization of MOLGENIS Vue applications
 
 
 ## Getting Started
-View /sr/main.js for usage example.
+View /src/main.js for usage example.
 
 Run the example with:  `yarn dev`
 
