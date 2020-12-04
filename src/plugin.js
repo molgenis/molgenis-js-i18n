@@ -5,19 +5,19 @@ import i18next from 'i18next'
 // $FlowFixMe
 import XHR from 'i18next-xhr-backend'
 // $FlowFixMe
-import moment from 'moment'
+import dayjs from 'dayjs'
 // $FlowFixMe
-import 'moment/locale/pt'
+import 'dayjs/locale/pt'
 // $FlowFixMe
-import 'moment/locale/es'
+import 'dayjs/locale/es'
 // $FlowFixMe
-import 'moment/locale/it'
+import 'dayjs/locale/it'
 // $FlowFixMe
-import 'moment/locale/fr'
+import 'dayjs/locale/fr'
 // $FlowFixMe
-import 'moment/locale/nl'
+import 'dayjs/locale/nl'
 // $FlowFixMe
-import 'moment/locale/de'
+import 'dayjs/locale/de'
 
 /**
  * I18next Vue module for MOLGENIS.
@@ -51,8 +51,8 @@ function plugin (Vue: any, options: {
   Vue.prototype.$t = t
   Vue.prototype._ = t
   Vue.filter('i18n', t)
-  Vue.filter('moment', (value, format) => moment(value).format(format))
-  moment.locale(lng)
+  Vue.filter('dayjs', (value, format) => dayjs(value).format(format))
+  dayjs.locale(lng)
 
   const i18nOptions = {
     lng,

@@ -1,19 +1,19 @@
 /*!
-     * @molgenis/molgenis-i18n-js v0.0.5
-     * (c) 2018 Genomics Coordination Center
+     * @molgenis/molgenis-i18n-js v0.2.1
+     * (c) 2020 Genomics Coordination Center
 
      * Released under the LGPL-3.0 License.
 
      */
 import i18next from 'i18next';
 import XHR from 'i18next-xhr-backend';
-import moment from 'moment';
-import 'moment/locale/pt';
-import 'moment/locale/es';
-import 'moment/locale/it';
-import 'moment/locale/fr';
-import 'moment/locale/nl';
-import 'moment/locale/de';
+import dayjs from 'dayjs';
+import 'dayjs/locale/pt';
+import 'dayjs/locale/es';
+import 'dayjs/locale/it';
+import 'dayjs/locale/fr';
+import 'dayjs/locale/nl';
+import 'dayjs/locale/de';
 
 /*  */
 
@@ -42,8 +42,8 @@ function plugin (Vue, options) {
   Vue.prototype.$t = t;
   Vue.prototype._ = t;
   Vue.filter('i18n', t);
-  Vue.filter('moment', function (value, format) { return moment(value).format(format); });
-  moment.locale(lng);
+  Vue.filter('dayjs', function (value, format) { return dayjs(value).format(format); });
+  dayjs.locale(lng);
 
   var i18nOptions = {
     lng: lng,
@@ -75,6 +75,6 @@ function plugin (Vue, options) {
   }
 }
 
-plugin.version = '0.0.5';
+plugin.version = '0.2.1';
 
 export default plugin;
