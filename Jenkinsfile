@@ -1,7 +1,7 @@
 pipeline {
     agent {
         kubernetes {
-            label 'lts/erbium'
+            label 'node-carbon'
         }
     }
     stages {
