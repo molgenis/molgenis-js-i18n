@@ -1,3 +1,17 @@
+# [1.0.0](https://github.com/molgenis/molgenis-js-i18n/compare/v0.2.1...v1.0.0) (2020-12-07)
+
+
+### chore
+
+* Switch from moment to dayjs ([a0ebef2](https://github.com/molgenis/molgenis-js-i18n/commit/a0ebef243220185ad0d0e5651cb9a34e31c87ed3))
+* Switch from moment to dayjs ([68a7cbd](https://github.com/molgenis/molgenis-js-i18n/commit/68a7cbd423568020db4fcfd146f0b4ffc593d9d8))
+
+
+### BREAKING CHANGES
+
+* moment is no longer set as filter on Vue instead dayjs is now set
+* moment is no longer set as filter on Vue instead dayjs is now set
+
 ## [0.2.1](https://github.com/molgenis/molgenis-js-i18n/compare/v0.2.0...v0.2.1) (2019-06-07)
 
 
