@@ -6,39 +6,30 @@
 
 A Vue.js plugin for the internationalization of MOLGENIS Vue applications
 
-
-## Installation
-`yarn add molgenis-i18n-js`
-
-
-## Getting Started
-View /src/main.js for usage example.
-
-Run the example with:  `yarn dev`
-
-## Development
-`yarn dev` to run dev server during development.
-
-`yarn test` to run tests.
-
-`yarn build` to create new production build.
-
-### How to commit
-We use conventional commits to generate changelogs and release notes. Please check: https://www.conventionalcommits.org/
-
-**Example**
+## Project setup
 ```
-git commit file.ext -m "fix(file.ext): fixes something"
+yarn install
 ```
 
-### How to publish
-Each time a PR is merged a release will be done to NPM. The CHANGELOG.md and GitHub release will be ammended. 
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
 
-The version of the package is based upon convential commits. Check: http://commitizen.github.io/cz-cli/.
+### Compiles and minifies for production
+```
+yarn build
+```
 
-## Changelog
-Details changes for each release are documented in the [CHANGELOG.md](https://github.com/molgenis/molgenis-i18n-js/blob/master/CHANGELOG.md).
+### Run your unit tests
+```
+yarn test:unit
+```
 
-### License
+### Lints and fixes files
+```
+yarn lint
+```
 
-[LGPL-3.0](http://opensource.org/licenses/LGPL-3.0)
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
